@@ -1,0 +1,310 @@
+@media screen and (max-width: 750px) {
+  .core {
+    height: 95%;
+  }
+
+  .introContainer img{
+    width:200%;
+  }
+
+  .introContainer button {
+    font-size:14px;
+    height:40px;
+    width: 200px;
+  }
+
+  .mainTop img {
+    height: 25px;
+  }
+
+  .allHeaderSection#headToday { width:50.0%; }
+  .allHeaderSection#headMumbai { width:50.0%; }
+  .allHeaderSection#headSub { display:none; }
+
+  /* ///////////////////////////////////////// GENERATOR */
+  .mainGenerator {
+    flex-direction:column;
+    height:100%;
+    width:100%;
+  }
+  .leftSide {
+    height:75%;
+    width:100%;
+    /* position:relative; */
+  }
+  .rightSide {
+    top:0%;
+    height:25%;
+    width:100%;
+    position:relative;
+  }
+
+  /* ///////////////////////////////////////// TOP BAR */
+  .mainTopContainer#mainStageNumber{  width: 25%;}
+  .mainTopContainer#mainArrow{  width: 25%}
+  .mainTopContainer#mainSubheadline{ width: 50%;
+    font-size:14px;
+  }
+
+  /* ///////////////////////////////////////// CONTAINER */
+
+  .container{
+    padding:4px;
+  }
+
+  .draggable {
+    height:10px;
+    padding:5px 10px 7px 10px;
+    margin:3px;
+    font-size:12px;
+  }
+  
+  .empty {
+    height:10px;
+    padding:5px 0px 7px 0px;
+    margin:3px;
+  }
+
+  #wordBox {
+    height:80%;
+
+    position:relative;
+  }
+  #poemBox {
+    height:20%;
+    
+    position:relative;
+  }
+
+  /* ///////////////////////////////////////// UI BAR */
+  #uiBar {
+    flex-direction: row;
+    padding-left:0;
+
+    position:absolute;
+    bottom:0%;
+    width:100%;
+    height:auto;
+    
+    font-size: 14px;
+  }
+
+  .uiSection img {
+    height:25px;
+  }
+
+  .uiSection#create button{
+    font-size:14px;
+    height:40px;
+  }
+
+  .uiSection#blank {      width:0%;  height:auto; }
+  .uiSection#shuffle {    width:33%; height:auto; }
+  .uiSection#startAgain { width:33%; height:auto; }
+  .uiSection#create {     width:33%; height:auto; }
+
+  /* ///////////////////////////////////////// preset BAR */
+  #presetBar {
+    flex-direction: row;
+    flex-wrap:wrap;
+    padding-left:0;
+
+    position:absolute;
+    bottom:0%;
+    height:auto;
+    width:100%;
+  }
+  #presetBar p {
+    text-align: left;
+  }
+  .presetSection#psExport button {
+    font-size:14px;
+    height:40px;
+  }
+  .presetSection {
+    position:relative;
+  }
+  input[type=radio] + label{
+    margin-top:5px;
+    font-size:14px;
+  }
+  .presetRadioSub{
+    flex-direction:row;
+    flex-wrap:wrap;
+
+    height:auto;
+  }
+  .presetRadioSub label{
+    width:23%;
+    margin-right:5px;
+  }
+  /* ////////// Preset Section ///// sliders */
+  #presetSliders {
+  }
+
+  /* ////////// Preset Section ///// bkgd */
+  #psBkgd{
+    margin-top:0px;
+  }
+  .presetSection#psBkgd p{
+    margin-top:5px;
+    text-align:center;
+  }
+  /* ////////// Preset Section ///// bkgd */
+  /* ///////////////////////////////////////// Switch */
+  input[type=checkbox] + label {
+    width: 50px;
+    height: 25px;
+  }
+  input:checked + label {
+    background: linear-gradient(to right, #0b003f, #00e3f4);
+  }
+
+  .presetSection#psPresets {  height:60%; width:100%;}
+  /* .presetSection#psSliders {  height:auto; width:32.5%;} */
+  .presetSection#psSliders { display:none;}
+  .presetSection#psBkgd {
+    height:20%;
+    width:32.5%;
+  }
+  .presetSection#psExport {
+    position:absolute;
+    right:0;
+    bottom:0;
+    height:20%;
+    width:50%;
+    padding-left:50%;
+  }
+
+  /* ////////// Preset Section ///// bkgd */
+  .recreateButton button{
+    /* width:32.5%; */
+    font-size:14px;
+    height:40px;
+
+    position:absolute;
+    left:50%;
+    bottom:25%;
+  }
+
+  /* ///////////////////////////////////////// UI BAR */
+  #exportBar {
+    flex-direction: row;
+    padding-left:0;
+
+    position:absolute;
+    bottom:0%;
+    width:100%;
+    height:auto;
+    
+    font-size: 14px;
+  }
+
+  .uiSection img {
+    height:25px;
+  }
+
+  .exportSection#exBlank{  height:0%;  width:0%; }
+  .exportSection#exName {
+    position:absolute;
+    right:0;
+    height:100%;
+    width:32%;
+  }
+  .exportSection#exFormat{
+    height:100%;
+    width:32%;
+  }
+  .exportSection#exRatio{
+    position:absolute;
+    left:34%;
+    height:100%;
+    width:32%
+  }
+  .exportSection#exExport {
+    position:absolute;
+    right:0;
+    height:100%;
+    width:32%
+  }
+  .exportSection#exExport button {
+    font-size:14px;
+    height:45px;
+    margin-top:5px;
+    padding: 5px 15px 5px 15px;
+  }
+  /* ///////////////////////////////////////// Export options */
+  input[type = "text"] {
+    height:40px;
+    margin-top:5px;
+    z-index: 100;
+  }
+
+  .radioSection input[type=radio] + label {
+    height:25px;
+  }
+
+  /* ///////////////////////////////////////// ABOUT BAR */
+  #finalBar {
+    flex-direction: row;
+    padding-left:0;
+
+    position:absolute;
+    bottom:0%;
+    width:100%;
+    height:auto;
+    
+    font-size: 14px;
+  }
+  .finalSection button {
+    font-size:14px;
+    height:40px;
+  }
+  .finalSection#fnAbout {   width:50%;  height:auto; }
+  .finalSection#fnHome {    width:50%; height:auto; }
+
+  /* ///////////////////////////////////////// profile BAR */
+  .aboutContainer {
+    flex-direction: column;
+    width:100%;
+    height:100%;
+  }
+  .aboutLeft {
+    width:100%;
+  }
+  #aboutRight {
+    position:absolute;
+    bottom:0;
+    width:100%;
+  }
+  #aboutRight button{
+    font-size:14px;
+    height:40px;
+  }
+  .profile {
+    flex-direction:column;
+  }
+  .profileName {
+    padding-top:25px;
+    padding-bottom:10px;
+  }
+  .profile#profileBlank { display:none}
+  .profile#profileTT {    width:100%;  height:auto; }
+  .profile#profileKiel {  width:100%;  height:auto; }
+  .profile#profileApple { display:none }
+
+  /* ///////////////////////////////////////// TEST ID */
+  #testID{
+    padding-left:0;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* ///////////////////////////////////////// Record message */
+  #recMessage {
+    bottom:50%;   
+    left:50%;
+    transform: translate(-50%,0);
+  }
+}
