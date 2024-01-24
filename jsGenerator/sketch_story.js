@@ -28,7 +28,7 @@ var pgGifTallCount = 7;
 var pgGifTall = [];
 
 var pgGradSelected = 0;
-var pgGradCount = 24;
+var pgGradCount = 25;
 var pgGrad = [];
 
 var makerName = "Friend";
@@ -115,7 +115,7 @@ function preload(){
   }
 
   for(var n = 0; n < pgGradCount; n++){
-    pgGrad[n] = loadImage("resources/grads/ap_gradientArtboard_" + n + ".png");
+    pgGrad[n] = loadImage("resources/grads/ap_gradientArtboard_" + n + ".jpg");
   }
 
   gen_csWh = loadImage("resources/gen_cs_wh.png");

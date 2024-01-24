@@ -51,7 +51,7 @@ function runGoBack(){
 
   document.getElementById("switch").checked = false;
   gradientOn = true;
-  document.documentElement.style.backgroundImage = "url('resources/grads/ap_gradientArtboard " + pgGradSelected + ".png')";  
+  document.documentElement.style.backgroundImage = "url('resources/grads/ap_gradientArtboard_" + pgGradSelected + ".jpg')";  
 }
 
 function runGoBack2(){
@@ -161,7 +161,7 @@ function runBackToHome(){
 
   document.getElementById("switch").checked = false;
 
-  document.documentElement.style.backgroundImage = "url('resources/grads/ap_gradientArtboard_0.png')";
+  document.documentElement.style.backgroundImage = "url('resources/grads/ap_gradientArtboard_0.jpg')";
   resetGenerator();
 }
 
@@ -177,10 +177,10 @@ function runReCreate(){
 function setBkgd(){
   var rs0 = round(random(23));
 
-  document.documentElement.style.backgroundImage = "url('resources/grads/ap_gradientArtboard_" + rs0 + ".png')";
+  document.documentElement.style.backgroundImage = "url('resources/grads/ap_gradientArtboard_" + rs0 + ".jpg')";
 
   pgGradSelected = rs0;
-  pgGrad[pgGradSelected] = loadImage("resources/grads/ap_gradientArtboard_" + pgGradSelected + ".png");
+  pgGrad[pgGradSelected] = loadImage("resources/grads/ap_gradientArtboard_" + pgGradSelected + ".jpg");
 
 }
 

@@ -5,29 +5,29 @@ body {
 body::after{
   position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
   content:
-  url("resources/grads/ap_gradientArtboard_1.png")
-  url("resources/grads/ap_gradientArtboard_2.png")
-  url("resources/grads/ap_gradientArtboard_3.png")
-  url("resources/grads/ap_gradientArtboard_4.png")
-  url("resources/grads/ap_gradientArtboard_5.png")
-  url("resources/grads/ap_gradientArtboard_6.png")
-  url("resources/grads/ap_gradientArtboard_7.png")
-  url("resources/grads/ap_gradientArtboard_8.png")
-  url("resources/grads/ap_gradientArtboard_9.png")
-  url("resources/grads/ap_gradientArtboard_10.png")
-  url("resources/grads/ap_gradientArtboard_11.png")
-  url("resources/grads/ap_gradientArtboard_12.png")
-  url("resources/grads/ap_gradientArtboard_13.png")
-  url("resources/grads/ap_gradientArtboard_14.png")
-  url("resources/grads/ap_gradientArtboard_15.png")
-  url("resources/grads/ap_gradientArtboard_16.png")
-  url("resources/grads/ap_gradientArtboard_17.png")
-  url("resources/grads/ap_gradientArtboard_18.png")
-  url("resources/grads/ap_gradientArtboard_19.png")
-  url("resources/grads/ap_gradientArtboard_20.png")
-  url("resources/grads/ap_gradientArtboard_21.png")
-  url("resources/grads/ap_gradientArtboard_22.png")
-  url("resources/grads/ap_gradientArtboard_23.png")
+  url("resources/grads/ap_gradientArtboard_1.jpg")
+  url("resources/grads/ap_gradientArtboard_2.jpg")
+  url("resources/grads/ap_gradientArtboard_3.jpg")
+  url("resources/grads/ap_gradientArtboard_4.jpg")
+  url("resources/grads/ap_gradientArtboard_5.jpg")
+  url("resources/grads/ap_gradientArtboard_6.jpg")
+  url("resources/grads/ap_gradientArtboard_7.jpg")
+  url("resources/grads/ap_gradientArtboard_8.jpg")
+  url("resources/grads/ap_gradientArtboard_9.jpg")
+  url("resources/grads/ap_gradientArtboard_10.jpg")
+  url("resources/grads/ap_gradientArtboard_11.jpg")
+  url("resources/grads/ap_gradientArtboard_12.jpg")
+  url("resources/grads/ap_gradientArtboard_13.jpg")
+  url("resources/grads/ap_gradientArtboard_14.jpg")
+  url("resources/grads/ap_gradientArtboard_15.jpg")
+  url("resources/grads/ap_gradientArtboard_16.jpg")
+  url("resources/grads/ap_gradientArtboard_17.jpg")
+  url("resources/grads/ap_gradientArtboard_18.jpg")
+  url("resources/grads/ap_gradientArtboard_19.jpg")
+  url("resources/grads/ap_gradientArtboard_20.jpg")
+  url("resources/grads/ap_gradientArtboard_21.jpg")
+  url("resources/grads/ap_gradientArtboard_22.jpg")
+  url("resources/grads/ap_gradientArtboard_23.jpg")
   ;
 }
 
@@ -47,7 +47,7 @@ body::after{
 }
 
 html {
-  background-image: url('resources/grads/ap_gradientArtboard_0.png');
+  background-image: url('resources/grads/ap_gradientArtboard_0.jpg');
   background-size: cover;
   width:100%;
   height:100%;
@@ -465,7 +465,9 @@ html {
   height:50px;
 
   border:none;
-  background-color:rgb(255,255,255,0.3);
+  /* background-color:rgb(255,255,255,0.3); */
+  background-color:rgb(122,122,122,0.4);
+
 }
 
 /* ///////////////////////////////////////// Preset Section */
@@ -515,7 +517,8 @@ html {
 
 .presetSection#psExport button{
   border:none;
-  background-color:rgb(255,255,255,0.3);
+  /* background-color:rgb(255,255,255,0.3); */
+  background-color:rgb(122,122,122,0.4);
   height:50px;
 
   font-size:16px;
@@ -746,14 +749,16 @@ input[type=checkbox] + label:active:after {
 
 .exportSection#exExport button{
   border:none;
-  background-color:rgb(255,255,255,0.3);
+  /* background-color:rgb(255,255,255,0.3); */
+  background-color:rgb(122,122,122,0.4);
   height:50px;
 
   font-size:16px;
 }
 
 input[type = "text"] {
-  background-color:rgb(255,255,255,0.2);
+  /* background-color:rgb(255,255,255,0.2); */
+  background-color:rgb(122,122,122,0.4);
   color:#fff;
   height:50px;
 
@@ -839,7 +844,8 @@ button {
 
   /* padding:5px 20px 5px 20px; */
   border:none;
-  background-color:rgb(255,255,255,0.3);
+  /* background-color:rgb(255,255,255,0.3); */
+  background-color:rgb(122,122,122,0.4);
   border-radius:500px;
   cursor:pointer;
 }
@@ -925,7 +931,8 @@ input[type=radio] + label {
   margin-top:10px;
 
   border:none;
-  background-color:rgb(255,255,255,0.3);
+  /* background-color:rgb(255,255,255,0.3); */
+  background-color:rgb(122,122,122,0.4);
   border-radius:500px;
   cursor: pointer;
 }
