@@ -601,6 +601,8 @@ html {
   outline: none;
   writing-mode: bt-lr; /* IE */
   -webkit-appearance: slider-vertical; /* WebKit */
+
+  color: red;
 }
 
 ::-moz-range-track {
@@ -645,7 +647,6 @@ input::-moz-focus-inner {
   height: 40px;
   background: #fff;
   cursor: pointer;
-  background-image: url("resources/apple_logo_white.png");
 }
 
 #slider2::-webkit-slider-thumb {
@@ -693,7 +694,8 @@ input[type=checkbox] + label:after {
 
 input:checked + label {
   /* background: #bada55; */
-  background: linear-gradient(to right, #0b003f, #00e3f4);
+  background:rgb(122,122,122,0.4);;
+  /* background: linear-gradient(to right, #0b003f, #00e3f4); */
 }
 
 input:checked + label:after {

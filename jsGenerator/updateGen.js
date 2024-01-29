@@ -125,6 +125,7 @@ function setBackground(val){
   if(document.getElementById("switch").checked){
     gradientOn = true;
     document.documentElement.style.backgroundImage = "url('resources/grads/ap_gradientArtboard_" + pgGradSelected + ".jpg')";
+    document.documentElement.style.backgroundSize = "cover";
   } else {
     gradientOn = false;
     document.documentElement.style.background = "#000";

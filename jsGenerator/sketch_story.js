@@ -7,20 +7,20 @@ var coreString = "";
 var keyArray = [];
 var coreCounter = 0;
 
-var pgImagesLargeCount = 12;
+var pgImagesLargeCount = 27;
 var pgImagesLarge = [];
-var pgImagesMidCount = 62;
+var pgImagesMidCount = 103;
 var pgImagesMid = [];
-var pgImagesSmallCount = 70;
+var pgImagesSmallCount = 99;
 var pgImagesSmall = [];
-var pgImagesTallCount = 26;
+var pgImagesTallCount = 33;
 var pgImagesTall = [];
 // var pgMumbaiTypeCount = 17;
 // var pgMumbaiType = [];
 var pgDrawingsCount = 47;
 var pgDrawings = [];
 
-var pgGifMedCount = 24;
+var pgGifMedCount = 25;
 var pgGifMed = [];
 var pgGifSmallCount = 19;
 var pgGifSmall = [];
